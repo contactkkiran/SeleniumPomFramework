@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<test name="Test">
+	<pa/>
+	
+		<parameter name="value1" value="Hello" />
+		<parameter name="value1" value="Hello" />
+		<groups>
+			<run>
+				<include name="Smoke"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.tests.TestNGTests" />
+			<!-- <class name="NewTest1" /> -->
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
